@@ -64,7 +64,7 @@ looking_for: AI/ML and backend engineering roles
 <tr>
 <td width="50%" valign="top">
 
-#### 🏢 2D Floor-Plan Generator
+#### 🏢 [2D Floor-Plan Generator](https://github.com/Thanush-RajuKaneshan/floor-plan-generator)
 🥉 *Capstone, 3rd Place: Best College Project*<br/>
 
 Turns a hand-drawn or scanned plot boundary into **dimensioned multi-apartment floor plans**
