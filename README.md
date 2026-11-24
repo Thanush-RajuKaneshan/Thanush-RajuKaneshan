@@ -80,15 +80,16 @@ Turns a hand-drawn or scanned plot boundary into **dimensioned multi-apartment f
 </td>
 <td width="50%" valign="top">
 
-#### 🏦 [Bankify: Banking Microservices](https://github.com/Thanush-RajuKaneshan/microservices_project)
+#### 🏦 [Bankify: Banking Microservices](https://github.com/Thanush-RajuKaneshan/bankify)
 
-A banking backend split into **user, account and transaction** microservices.
+A banking system split into **user, account and transaction** microservices, with a small web page.
 
-- REST APIs over PostgreSQL schemas for secure transaction workflows
-- **Apache Kafka** for messaging between services, **Eureka** for service discovery
-- Endpoints secured with **JWT** authentication; containerised with Docker
+- A PostgreSQL database per service; **Kafka** events sync users, **Eureka** handles discovery
+- **JWT** checked at the Spring Cloud Gateway; users reach only their own accounts
+- Overdraft-safe atomic SQL and **compensating transfers**; 26 automated tests
+- Starts with one `docker compose up`
 
-`Java` `Spring Boot` `Kafka` `Eureka` `PostgreSQL` `Docker` `JWT`
+`Java` `Spring Boot` `Kafka` `Eureka` `PostgreSQL` `Docker` `JWT` `JavaScript`
 
 </td>
 </tr>
